@@ -13,6 +13,9 @@ import lxml
 from lxml import etree
 import subprocess
 import os
+from github import Github
+g = Github('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')
+g = Github(base_url="https://github.com/Asmadeyka/musicbot", login_or_token="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")
 token = '5178606516:AAHJmWCO6oMz_odhaCDmh7t1sxqvgMXeOx0'
 botik = telebot.TeleBot(token)
 i = 0
