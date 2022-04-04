@@ -1,0 +1,12 @@
+transliterate
+urllib
+urllib.request
+requests
+re
+time
+pytube
+bs4
+lxml
+subprocess
+os
+pyTelegramBotAPI
