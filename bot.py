@@ -128,7 +128,7 @@ def step2(call):
             download(ssilki[0])
             send(chatik)
         except:
-            botik.send_message(chatik,error)
+            botik.send_message(chatik,'Could not dowwload this shit((')
     elif call.data == 'second':
         botik.answer_callback_query(call.id)
         botik.delete_message(chatik, answer.message_id)
@@ -136,7 +136,7 @@ def step2(call):
             download(ssilki[1])
             send(chatik)
         except:
-            botik.send_message(chatik,error)
+            botik.send_message(chatik,'Could not dowwload this shit((')
     elif call.data == 'third':
         botik.answer_callback_query(call.id)
         botik.delete_message(chatik, answer.message_id)
@@ -144,7 +144,7 @@ def step2(call):
             download(ssilki[2])
             send(chatik)
         except:
-            botik.send_message(chatik,error)
+            botik.send_message(chatik,'Could not dowwload this shit((')
     elif call.data == 'exit':
         botik.answer_callback_query(call.id)
         botik.delete_message(chatik,answer.message_id)
