@@ -1,7 +1,1 @@
-transliterate
-requests
-pytube
-bs4
-lxml
 pyTelegramBotAPI
-pyGithub
